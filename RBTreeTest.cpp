@@ -1,6 +1,6 @@
 #include <iostream>
-#include "RBTree.h"
-#include "order_set.hpp"
+#include "RBTree.hpp"
+// #include "order_set.hpp"
 
 // void func(int* & a)
 // {
@@ -33,11 +33,11 @@ int main()
     std::cout << "        12\n";
 
     delete tree;
-    std::cout<< '\n';
-    int *b = new int[9]{5,6,7,1,2,2,5,6,7};
-    order_set<int> root(b, 9);
-    // std::cout << 5555 << std::endl;
-    root.func()->inorder();
-    delete[] b;
+    // std::cout<< '\n';
+    // int *b = new int[9]{5,6,7,1,2,2,5,6,7};
+    // order_set<int> root(b, 9);
+    // // std::cout << 5555 << std::endl;
+    // root.func()->inorder();
+    // delete[] b;
 
 }
